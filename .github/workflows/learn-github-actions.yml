@@ -12,4 +12,4 @@ jobs:
         - run: npm install -g bats
         - run: bats -v
         - run: npm install cypress
-        - run: cypress -v
+        - run: npx cypress --version
