@@ -67,7 +67,7 @@ jobs:
           
         
    Send-mail:
-    uses: https://github.com/NicksonLagat/learn-github-actions/edit/main/.github/workflows/learn-github-actions.yml@main
+    uses: NicksonLagat/learn-github-actions/.github/workflows/learn-github-actions.yml@main
     with:
       server_address: smtp.gmail.com
     # Required mail server port:
